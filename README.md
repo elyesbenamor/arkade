@@ -702,6 +702,7 @@ A CLI or "tool" is a command line tool that you run directly on your own worksta
 | openfaas                | Install openfaas                                                    |
 | openfaas-ingress        | Install openfaas ingress with TLS                                   |
 | openfaas-loki           | Install Loki-OpenFaaS and Configure Loki logs provider for OpenFaaS |
+| openebs                 | Install openEBS |
 | osm                     | Install osm                                                         |
 | portainer               | Install portainer to visualise and manage containers                |
 | postgresql              | Install postgresql                                                  |
