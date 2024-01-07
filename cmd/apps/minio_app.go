@@ -131,7 +131,7 @@ func MakeInstallMinio() *cobra.Command {
 		minioAppOptions := types.DefaultInstallOptions().
 			WithNamespace(ns).
 			WithHelmRepo("minio/minio").
-			WithHelmURL("https://helm.min.io/").
+			WithHelmURL("https://charts.bitnami.com/bitnami").
 			WithOverrides(overrides).
 			WithHelmUpdateRepo(updateRepo).
 			WithKubeconfigPath(kubeConfigPath).
